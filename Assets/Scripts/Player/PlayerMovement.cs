@@ -50,17 +50,18 @@ public class PlayerMovement : MonoBehaviour
 
 
 	void Animating(float h, float v){
-		/*
+		
 		if (h !=0 || v != 0){
 			anim.SetBool("IsWalking", true);
 		}else{
 			anim.SetBool("IsWalking", false);
 		}
-		*/
+		/*
 		bool walking = h != 0f || v != 0f;
 
 		// Tell the animator whether or not the player is walking.
 		anim.SetBool ("IsWalking", walking);
+		*/
 	}
     
 }
